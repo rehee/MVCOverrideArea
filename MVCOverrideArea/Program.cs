@@ -1,9 +1,12 @@
+using MVCOverrideArea;
+using RazorClassLibrary3;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddServerSideBlazor();
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddScoped<IComonent, AComonent>();
 
 
 var app = builder.Build();

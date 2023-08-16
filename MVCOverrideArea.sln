@@ -3,11 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCOverrideArea", "MVCOverrideArea\MVCOverrideArea.csproj", "{93AF61F8-C8A5-48DE-B3FF-AD0D03938C0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCOverrideArea", "MVCOverrideArea\MVCOverrideArea.csproj", "{93AF61F8-C8A5-48DE-B3FF-AD0D03938C0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorClassLibrary2", "RazorClassLibrary2\RazorClassLibrary2.csproj", "{07436EAD-5802-430F-90AF-6097A13B9732}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorClassLibrary2", "RazorClassLibrary2\RazorClassLibrary2.csproj", "{07436EAD-5802-430F-90AF-6097A13B9732}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorClassLibrary3", "RazorClassLibrary3\RazorClassLibrary3.csproj", "{0C4E294C-049D-4522-839E-F3D9D46C758F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RazorClassLibrary3", "RazorClassLibrary3\RazorClassLibrary3.csproj", "{0C4E294C-049D-4522-839E-F3D9D46C758F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D53A4F88-587A-4916-BE08-31F1CEC4C547}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
